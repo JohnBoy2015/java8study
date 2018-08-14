@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361166cb-be9e-48d8-8eeb-d95063c65213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestStreamAPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/ForkJoinCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestForkJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,137 +18,39 @@
     <session id="1476556515">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="18" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="18" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1277" />
+          <entry key="java" value="1987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1277" />
+          <entry key="JAVA" value="1987" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/exer/ExerTestlambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" selection-start-line="11" selection-end-line="16" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestStreamAPi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-              <folding>
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="486" column="54" lean-forward="true" selection-start-line="486" selection-start-column="54" selection-end-line="486" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="839" column="16" selection-start-line="839" selection-start-column="16" selection-end-line="839" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BinaryOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Trader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,6 +76,8 @@
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestStreamAPi.java" />
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Trader.java" />
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/ForkJoinCalculate.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestForkJoin.java" />
       </list>
     </option>
   </component>
@@ -185,8 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="48" />
+    <option name="x" value="434" />
+    <option name="y" value="45" />
     <option name="width" value="1440" />
     <option name="height" value="840" />
   </component>
@@ -199,7 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,13 +120,7 @@
               <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
@@ -238,20 +136,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
@@ -264,8 +148,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +157,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534164804973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534245899775" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -296,58 +179,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTransaction.test8">
+  <component name="RunManager" selected="JUnit.TestForkJoin.test3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransaction.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForkJoin.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.johnboy.java8.Test.*" />
+          <option name="PATTERN" value="com.johnboy.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.johnboy.java8.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.Test.TestTransaction" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="com.johnboy.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.TestForkJoin" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransaction.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForkJoin.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.johnboy.java8.Test.*" />
+          <option name="PATTERN" value="com.johnboy.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.johnboy.java8.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.Test.TestTransaction" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="com.johnboy.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.TestForkJoin" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransaction.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForkJoin.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.johnboy.java8.Test.*" />
+          <option name="PATTERN" value="com.johnboy.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.johnboy.java8.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.Test.TestTransaction" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="com.johnboy.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.TestForkJoin" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -403,19 +286,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestTransaction.test4" />
-      <item itemvalue="JUnit.TestTransaction.test5" />
-      <item itemvalue="JUnit.TestTransaction.test6" />
       <item itemvalue="JUnit.TestTransaction.test7" />
       <item itemvalue="JUnit.TestTransaction.test8" />
+      <item itemvalue="JUnit.TestForkJoin.test1" />
+      <item itemvalue="JUnit.TestForkJoin.test2" />
+      <item itemvalue="JUnit.TestForkJoin.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestForkJoin.test3" />
+        <item itemvalue="JUnit.TestForkJoin.test2" />
+        <item itemvalue="JUnit.TestForkJoin.test1" />
         <item itemvalue="JUnit.TestTransaction.test8" />
         <item itemvalue="JUnit.TestTransaction.test7" />
-        <item itemvalue="JUnit.TestTransaction.test6" />
-        <item itemvalue="JUnit.TestTransaction.test5" />
-        <item itemvalue="JUnit.TestTransaction.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -430,50 +313,51 @@
       <option name="presentableId" value="Default" />
       <updated>1534153730680</updated>
       <workItem from="1534153733998" duration="235000" />
-      <workItem from="1534159567831" duration="3156000" />
+      <workItem from="1534159567831" duration="3407000" />
+      <workItem from="1534217349316" duration="829000" />
+      <workItem from="1534243735286" duration="1964000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTransaction_test4 - 2018.08.13 at 19h 50m 12s.xml">
-      <configuration name="TestTransaction.test4" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 12m 06s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test4 - 2018.08.13 at 20h 37m 15s.xml">
-      <configuration name="TestTransaction.test4" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 12m 28s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test4 - 2018.08.13 at 20h 37m 29s.xml">
-      <configuration name="TestTransaction.test4" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test2 - 2018.08.14 at 19h 13m 45s.xml">
+      <configuration name="TestForkJoin.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test4 - 2018.08.13 at 20h 38m 44s.xml">
-      <configuration name="TestTransaction.test4" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 14m 00s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test5 - 2018.08.13 at 20h 40m 33s.xml">
-      <configuration name="TestTransaction.test5" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 15m 37s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test5 - 2018.08.13 at 20h 41m 07s.xml">
-      <configuration name="TestTransaction.test5" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 16m 31s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test5 - 2018.08.13 at 20h 41m 25s.xml">
-      <configuration name="TestTransaction.test5" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 16m 41s.xml">
+      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test6 - 2018.08.13 at 20h 47m 27s.xml">
-      <configuration name="TestTransaction.test6" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test2 - 2018.08.14 at 19h 16m 49s.xml">
+      <configuration name="TestForkJoin.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test7 - 2018.08.13 at 20h 51m 01s.xml">
-      <configuration name="TestTransaction.test7" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test3 - 2018.08.14 at 19h 21m 07s.xml">
+      <configuration name="TestForkJoin.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTransaction_test8 - 2018.08.13 at 20h 53m 17s.xml">
-      <configuration name="TestTransaction.test8" configurationId="JUnit" />
+    <history-entry file="TestForkJoin_test3 - 2018.08.14 at 19h 21m 39s.xml">
+      <configuration name="TestForkJoin.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3391000" />
+    <option name="totallyTimeSpent" value="6435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="48" width="1440" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="434" y="45" width="1440" height="840" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12660944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +366,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22192514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,11 +398,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java</url>
-          <line>60</line>
+          <line>59</line>
           <properties class="com.johnboy.java8.Test.TestTransaction" method="test4">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestForkJoin.java</url>
+          <line>13</line>
+          <properties class="com.johnboy.java8.TestForkJoin" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -559,17 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Trader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestStreamAPi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="360">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -578,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="375">
           <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
             <element signature="e#527#528#0" expanded="true" />
@@ -587,48 +472,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BinaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="839" column="16" selection-start-line="839" selection-start-column="16" selection-end-line="839" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="486" column="54" lean-forward="true" selection-start-line="486" selection-start-column="54" selection-end-line="486" selection-end-column="54" />
+        <state relative-caret-position="6810">
+          <caret line="486" column="54" selection-start-line="486" selection-start-column="54" selection-end-line="486" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11895">
+          <caret line="839" column="16" selection-start-line="839" selection-start-column="16" selection-end-line="839" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/Trader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/Test/TestTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/LongStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="669" column="15" selection-start-line="669" selection-start-column="15" selection-end-line="669" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/AbstractPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="307" column="13" lean-forward="true" selection-start-line="307" selection-start-column="13" selection-end-line="307" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestForkJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/ForkJoinCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>

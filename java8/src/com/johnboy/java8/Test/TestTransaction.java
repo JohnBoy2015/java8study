@@ -1,6 +1,5 @@
 package com.johnboy.java8.Test;
 
-import jdk.nashorn.internal.runtime.regexp.joni.constants.OPCode;
 import org.junit.Before;
 import org.junit.Test;
 
