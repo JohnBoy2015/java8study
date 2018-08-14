@@ -2,6 +2,7 @@ package com.johnboy.java8;
 
 import org.junit.Test;
 
+import java.util.EnumMap;
 import java.util.Optional;
 
 public class TestOptional {
@@ -29,7 +30,16 @@ public class TestOptional {
         }
         Employee employee = op.orElse(new Employee("张三", 11, 222));
         System.out.println(employee);
-        op.orElseGet(Employee::new);
+        Employee employee1 =  op.orElseGet(Employee::new);
+        System.out.println(employee1);
+    }
+
+    @Test
+    public void test4(){
+        Optional<Employee> op = Optional.ofNullable(new Employee());
+        Optional<String> str = op.map(Employee::getName);
+        System.out.println(str.get());
+
     }
 
 
