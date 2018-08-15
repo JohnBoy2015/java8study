@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361166cb-be9e-48d8-8eeb-d95063c65213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/MyFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestDefaultInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8/java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8/java8.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,33 +19,34 @@
     <session id="1476556515">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="22" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="22" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1987" />
+          <entry key="java" value="2174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1987" />
+          <entry key="JAVA" value="2174" />
         </counts>
       </usages-collector>
     </session>
@@ -78,14 +80,60 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestOptional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="273">
+              <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/MyFun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/SubClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestDefaultInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/MyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#78#79#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +144,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -120,6 +169,10 @@
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/ForkJoinCalculate.java" />
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestForkJoin.java" />
         <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestOptional.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/MyClass.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/SubClass.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/TestDefaultInterface.java" />
+        <option value="$PROJECT_DIR$/java8/src/com/johnboy/java8/MyFun.java" />
       </list>
     </option>
   </component>
@@ -130,8 +183,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="142" />
+    <option name="x" value="166" />
+    <option name="y" value="75" />
     <option name="width" value="1440" />
     <option name="height" value="787" />
   </component>
@@ -145,23 +198,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="java8study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java8study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java8study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
@@ -170,6 +222,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +231,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534256563984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534303304873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -201,14 +254,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestOptional.test3">
+  <component name="RunManager" selected="JUnit.TestDefaultInterface.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForkJoin.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDefaultInterface.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -217,8 +270,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.johnboy.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.TestForkJoin" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.johnboy.java8.TestDefaultInterface" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -308,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestForkJoin.test2" />
       <item itemvalue="JUnit.TestForkJoin.test3" />
       <item itemvalue="JUnit.TestOptional.test1" />
       <item itemvalue="JUnit.TestOptional.test2" />
       <item itemvalue="JUnit.TestOptional.test3" />
+      <item itemvalue="JUnit.TestDefaultInterface.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDefaultInterface.test1" />
         <item itemvalue="JUnit.TestOptional.test3" />
         <item itemvalue="JUnit.TestOptional.test2" />
         <item itemvalue="JUnit.TestOptional.test1" />
         <item itemvalue="JUnit.TestForkJoin.test3" />
-        <item itemvalue="JUnit.TestForkJoin.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -339,16 +392,11 @@
       <workItem from="1534217349316" duration="829000" />
       <workItem from="1534243735286" duration="1964000" />
       <workItem from="1534255511714" duration="1001000" />
+      <workItem from="1534301953918" duration="1782000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 14m 00s.xml">
-      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 15m 37s.xml">
-      <configuration name="TestForkJoin.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestForkJoin_test1 - 2018.08.14 at 19h 16m 31s.xml">
       <configuration name="TestForkJoin.test1" configurationId="JUnit" />
     </history-entry>
@@ -373,15 +421,21 @@
     <history-entry file="TestOptional_test3 - 2018.08.14 at 22h 20m 50s.xml">
       <configuration name="TestOptional.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDefaultInterface_test1 - 2018.08.15 at 11h 16m 35s.xml">
+      <configuration name="TestDefaultInterface.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDefaultInterface_test1 - 2018.08.15 at 11h 20m 45s.xml">
+      <configuration name="TestDefaultInterface.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7436000" />
+    <option name="totallyTimeSpent" value="9218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="142" width="1440" height="787" extended-state="0" />
+    <frame x="166" y="75" width="1440" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2442029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2208589" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22014388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,6 +489,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestDefaultInterface.java</url>
+          <line>7</line>
+          <properties class="com.johnboy.java8.TestDefaultInterface" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,10 +602,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestDefaultInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/com/johnboy/java8/TestOptional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="273">
+          <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
